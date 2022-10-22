@@ -13,13 +13,11 @@
 }
 
 body {
-    background-color: var(--background-color);
+    background-color: var(--white-color);
     color: var(--primary-text-color);
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
-    line-height: 1.7;
     letter-spacing: 0.03em;
 }
 .visually-hidden {
@@ -71,13 +69,19 @@ ul {
 .site-nav .link.current {
     color: var(--accent-color);
 }
+.link.contact {
+    color: var(--primary-text-color);
+}
 .header {
     background-color: var(--white-color);
 }
 /* Головний контент */
 .title {
     color: var(--title-text-color);
-    text-align: center;
+}
+p {
+    font-weight: 400;
+    line-height: 1.71;
 }
 .feature .title {
     font-weight: 700;
@@ -85,7 +89,6 @@ ul {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    text-align: justify;
 }
 .team {
     background-color: var(--background-color-button);
@@ -96,6 +99,7 @@ ul {
     font-size: 36px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    text-align: center;
 }
 .team .member {
     font-weight: 500;
@@ -104,7 +108,11 @@ ul {
     letter-spacing: 0.03em;
 }
 .team .profession {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
     text-align: center;
+    letter-spacing: 0.03em;
 }
 /* Герой */
 .hero-title {
@@ -128,6 +136,11 @@ ul {
 .button.secondary {
     color: var(--title-text-color);
     background-color: var(--background-color-button);   
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
 } 
 .button.secondary:focus,
 .button.secondary:hover {
@@ -156,6 +169,11 @@ ul {
 .footer-link {
     color: var(--footer-text-color);
     font-style: normal;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 .footer-link.address {
     color: var(--white-color);
@@ -171,7 +189,6 @@ ul {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    text-align: justify;
 }
 .portfolio .product {
     font-size: 16px;
@@ -179,9 +196,5 @@ ul {
     letter-spacing: 0.03em;
 }
 .portfolio li {
-    background-color: var(--white-color);
     border: 1px solid var(--portfolio-border-color);
-}
-.filter {
-    background-color: var(--white-color);
 }
